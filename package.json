@@ -5,7 +5,7 @@
   "author": "Wisdom <pdsu.wwz@foxmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "vite --host",
+    "dev": "vite --host",
     "build": "vite build",
     "deploy:gh-pages": "cross-env VITE_ROUTER_MODE=hash yarn build",
     "preview": "vite preview --host",
@@ -76,7 +76,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.3.1",
     "jest-transform-stub": "^2.0.0",
-    "node-sass": "^4.5.3",
     "sass": "^1.43.4",
     "sass-loader": "8.0.0",
     "style-resources-loader": "^1.4.1",
