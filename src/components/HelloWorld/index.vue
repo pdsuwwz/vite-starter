@@ -10,11 +10,13 @@ defineProps({
   }
 })
 
+const isProd = import.meta.env.PROD
 const count = ref(0)
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
+  <h1>is production: {{ isProd }}</h1>
 
   <p>
     Recommended IDE setup:
