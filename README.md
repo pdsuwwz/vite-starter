@@ -27,7 +27,7 @@ yarn install
 Local Development
 
 ```bash
-yarn serve
+yarn dev
 ```
 
 ## Test
