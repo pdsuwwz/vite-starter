@@ -8,9 +8,12 @@
     @command="handleChange"
   >
     <span>
-      Translations<el-icon class="el-icon--right">
+      <!-- Translations<el-icon class="el-icon--right">
         <ArrowDown />
-      </el-icon>
+      </el-icon> -->
+      <LogoIcon
+        :dark="dark"
+      />
     </span>
     <template #dropdown>
       <el-dropdown-menu>
@@ -26,17 +29,17 @@
   </el-dropdown>
 </template>
 <script>
-import { defineComponent, nextTick, ref } from 'vue'
+import { defineComponent, ref } from 'vue'
 import { localesMapping } from '@/locales'
 import { useStore } from 'vuex'
 import { useRoute, useRouter } from 'vue-router'
 
-import { ArrowDown } from '@element-plus/icons'
+import LogoIcon from '@/locales/LogoIcon.vue'
 
 export default defineComponent({
-  name: 'Translations',
+  name: 'TranslationsBox',
   components: {
-    ArrowDown
+    LogoIcon
   },
   props: {
     dark: {
