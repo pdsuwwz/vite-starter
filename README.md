@@ -10,7 +10,7 @@
 
 **Live demo:** [Vite Starter](https://pdsuwwz.github.io/vite-starter)
 
-> For Typescript: https://pdsuwwz.github.io/vite-ts-starter
+> For Typescript: https://github.com/pdsuwwz/vite-ts-starter
 
 ## Environment Support
 
