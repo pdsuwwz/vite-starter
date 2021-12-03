@@ -1,0 +1,1 @@
+import{_ as e}from"./index.43beb87d.js";import{o as r,s as n,t as o}from"./vendor.bedde91a.js";const a={name:"NotFound"},s=[o("h1",null,"NOT-FOUND 404",-1)];var p=e(a,[["render",function(d,t,u,i,l,m){return r(),n("div",null,s)}]]);export{p as default};
