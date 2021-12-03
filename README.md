@@ -8,9 +8,9 @@
 
 🐟 Starter template for Vite 2.x + Vue 3.x
 
-* **Live demo:** [Vite Starter](https://pdsuwwz.github.io/vite-starter)
+**Live demo:** [Vite Starter](https://pdsuwwz.github.io/vite-starter)
 
-* **Typescript:** https://pdsuwwz.github.io/vite-ts-starter
+> For Typescript: https://pdsuwwz.github.io/vite-ts-starter
 
 ## Environment Support
 
