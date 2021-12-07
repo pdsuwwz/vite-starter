@@ -29,7 +29,7 @@
 
 <script>
 import Cookie from 'js-cookie'
-import { useLocaleInject } from 'element-plus'
+import { useLocale } from 'element-plus'
 import { computed, defineComponent } from 'vue'
 
 import { SwitchButton } from '@element-plus/icons'
@@ -40,7 +40,7 @@ export default defineComponent({
     SwitchButton
   },
   setup () {
-    const localeInject = useLocaleInject()
+    const localeInject = useLocale()
     const commandList = computed(() => [
       {
         label: localeInject.t('login.signout'),
