@@ -14,7 +14,7 @@
 
 <script>
 import { computed, defineComponent, getCurrentInstance, ref } from 'vue'
-import { useLocaleInject } from 'element-plus'
+import { useLocale } from 'element-plus'
 
 export default defineComponent({
   name: 'NavigationSideAction',
@@ -23,7 +23,7 @@ export default defineComponent({
   ],
   setup () {
     const { proxy } = getCurrentInstance()
-    const localeInject = useLocaleInject()
+    const localeInject = useLocale()
 
     function handleClick () {
       proxy.$emit('click')
