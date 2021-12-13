@@ -72,7 +72,7 @@
 
 <script>
 import { computed, defineComponent, getCurrentInstance, ref } from 'vue'
-import { Loading } from '@element-plus/icons'
+import { Loading } from '@element-plus/icons-vue'
 
 import { sleep } from '@/utils/request'
 
@@ -210,6 +210,7 @@ export default defineComponent({
     .project-item-action__icon {
       width: 20px;
       & > svg {
+        width: 100%;
         font-size: 20px;
       }
     }

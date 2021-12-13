@@ -42,7 +42,7 @@
 
 <script>
 import { defineComponent, getCurrentInstance, nextTick, ref, watch } from 'vue'
-import { Loading } from '@element-plus/icons'
+import { Loading } from '@element-plus/icons-vue'
 
 import { debounce } from 'lodash'
 

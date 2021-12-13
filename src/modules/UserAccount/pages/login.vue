@@ -46,7 +46,7 @@ import {
   ref
 } from 'vue'
 import { useLocale } from 'element-plus'
-import { Promotion } from '@element-plus/icons'
+import { Promotion } from '@element-plus/icons-vue'
 
 import UserAccountContainerLayout from '@/modules/UserAccount/components/ContainerLayout.vue'
 
