@@ -5,11 +5,11 @@ specifiers:
   '@babel/eslint-parser': ^7.16.3
   '@babel/preset-env': ^7.16.4
   '@element-plus/icons-vue': ^0.2.4
-  '@fortawesome/fontawesome-svg-core': ^1.2.36
-  '@fortawesome/free-brands-svg-icons': ^5.15.4
-  '@fortawesome/free-regular-svg-icons': ^5.15.4
-  '@fortawesome/free-solid-svg-icons': ^5.15.4
-  '@fortawesome/vue-fontawesome': ~3.0.0-5
+  '@fortawesome/fontawesome-svg-core': 1.2.36
+  '@fortawesome/free-brands-svg-icons': 5.15.4
+  '@fortawesome/free-regular-svg-icons': 5.15.4
+  '@fortawesome/free-solid-svg-icons': 5.15.4
+  '@fortawesome/vue-fontawesome': 3.0.0-5
   '@sucrase/jest-plugin': ^2.2.0
   '@vitejs/plugin-vue': ^1.10.2
   '@vue/compiler-sfc': ^3.2.26
