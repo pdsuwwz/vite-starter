@@ -70,7 +70,7 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
-    "eslint-plugin-vue": "^7.20.0",
+    "eslint-plugin-vue": "8.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.4",
     "jest-transform-stub": "^2.0.0",
