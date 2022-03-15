@@ -1,1 +1,0 @@
-import{o as r,s as o,t}from"./vendor.e5c77ba2.js";import{_ as a}from"./index.7f5cf26a.js";const n={name:"NotFound"},e=[t("h1",null,"NOT-FOUND 404",-1)];var N=a(n,[["render",function(s,u,d,f,l,m){return r(),o("div",null,e)}]]);export{N as default};
