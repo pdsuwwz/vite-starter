@@ -45,3 +45,7 @@ Test code coverage
 ```bash
 pnpm test:coverage
 ```
+
+## 😎 Awesome
+
+* [awesome-vite](https://github.com/pdsuwwz/awesome-vite)
