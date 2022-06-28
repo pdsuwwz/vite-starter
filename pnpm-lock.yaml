@@ -15,7 +15,7 @@ specifiers:
   '@vitejs/plugin-vue': ^2.3.3
   '@vue/compiler-sfc': ^3.2.36
   '@vue/test-utils': ^2.0.0
-  '@vue/vue3-jest': 28.0.0
+  '@vue/vue3-jest': 28.0.1
   axios: 0.27.2
   babel-jest: ^28.1.0
   babel-plugin-transform-vite-meta-env: ^1.0.3
@@ -68,7 +68,7 @@ devDependencies:
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
   '@vue/compiler-sfc': 3.2.36
   '@vue/test-utils': 2.0.0_vue@3.2.36
-  '@vue/vue3-jest': 28.0.0_b266cdlo7gmmswdobf3lm4m5wa
+  '@vue/vue3-jest': 28.0.1_b266cdlo7gmmswdobf3lm4m5wa
   babel-jest: 28.1.0_@babel+core@7.18.2
   babel-plugin-transform-vite-meta-env: 1.0.3
   cross-env: 7.0.3
@@ -1890,8 +1890,8 @@ packages:
       vue: 3.2.36
     dev: true
 
-  /@vue/vue3-jest/28.0.0_b266cdlo7gmmswdobf3lm4m5wa:
-    resolution: {integrity: sha512-X5ZgZuG4d9N6x5lZAWWtTCSo4lO6+ytV5IekoyWVQYC9sKbYenrGUrCvy/kSftK6kPe8K/LeSsYj2VMJAUdeww==}
+  /@vue/vue3-jest/28.0.1_b266cdlo7gmmswdobf3lm4m5wa:
+    resolution: {integrity: sha512-fdzbp4HvU8dbo3Pup5sgll4R6hmBf5dHOjpLOFPiwwGnuA57g+Fe2u56nmBVYNd+XA4RInQobdBCl5GbnmhGhw==}
     engines: {node: '>10'}
     peerDependencies:
       '@babel/core': 7.x
@@ -4972,7 +4972,7 @@ packages:
     dev: true
 
   /source-map/0.5.6:
-    resolution: {integrity: sha1-dc449SvwczxafwwRjYEzSiu19BI=}
+    resolution: {integrity: sha512-MjZkVp0NHr5+TPihLcadqnlVoGIoWo4IBHptutGh9wI3ttUYvCG26HkSuDi+K6lsZ25syXJXcctwgyVCt//xqA==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -5035,7 +5035,7 @@ packages:
     dev: true
 
   /strip-bom/3.0.0:
-    resolution: {integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=}
+    resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
     dev: true
 
@@ -5050,7 +5050,7 @@ packages:
     dev: true
 
   /strip-json-comments/2.0.1:
-    resolution: {integrity: sha1-PFMZQukIwml8DsNEhYwobHygpgo=}
+    resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
