@@ -21,7 +21,7 @@ specifiers:
   babel-plugin-transform-vite-meta-env: ^1.0.3
   cross-env: ^7.0.3
   echarts: ^5.3.2
-  element-plus: 2.2.9
+  element-plus: 2.2.10
   eslint: ^8.17.0
   eslint-plugin-import: ^2.26.0
   eslint-plugin-node: ^11.1.0
@@ -51,7 +51,7 @@ dependencies:
   '@fortawesome/vue-fontawesome': 3.0.0-5_ra36apx7k7u2r4lnz24hnvxtpe
   axios: 0.27.2
   echarts: 5.3.2
-  element-plus: 2.2.9_vue@3.2.36
+  element-plus: 2.2.10_vue@3.2.36
   js-cookie: 3.0.1
   lodash: 4.17.21
   nprogress: 0.2.0
@@ -1920,8 +1920,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vueuse/core/8.7.5_vue@3.2.36:
-    resolution: {integrity: sha512-tqgzeZGoZcXzoit4kOGLWJibDMLp0vdm6ZO41SSUQhkhtrPhAg6dbIEPiahhUu6sZAmSYvVrZgEr5aKD51nrLA==}
+  /@vueuse/core/8.9.4_vue@3.2.36:
+    resolution: {integrity: sha512-B/Mdj9TK1peFyWaPof+Zf/mP9XuGAngaJZBwPaXBvU3aCTZlx3ltlrFFFyMV4iGBwsjSCeUCgZrtkEj9dS2Y3Q==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -1932,18 +1932,18 @@ packages:
         optional: true
     dependencies:
       '@types/web-bluetooth': 0.0.14
-      '@vueuse/metadata': 8.7.5
-      '@vueuse/shared': 8.7.5_vue@3.2.36
+      '@vueuse/metadata': 8.9.4
+      '@vueuse/shared': 8.9.4_vue@3.2.36
       vue: 3.2.36
-      vue-demi: 0.13.1_vue@3.2.36
+      vue-demi: 0.13.5_vue@3.2.36
     dev: false
 
-  /@vueuse/metadata/8.7.5:
-    resolution: {integrity: sha512-emJZKRQSaEnVqmlu39NpNp8iaW+bPC2kWykWoWOZMSlO/0QVEmO/rt8A5VhOEJTKLX3vwTevqbiRy9WJRwVOQg==}
+  /@vueuse/metadata/8.9.4:
+    resolution: {integrity: sha512-IwSfzH80bnJMzqhaapqJl9JRIiyQU0zsRGEgnxN6jhq7992cPUJIRfV+JHRIZXjYqbwt07E1gTEp0R0zPJ1aqw==}
     dev: false
 
-  /@vueuse/shared/8.7.5_vue@3.2.36:
-    resolution: {integrity: sha512-THXPvMBFmg6Gf6AwRn/EdTh2mhqwjGsB2Yfp374LNQSQVKRHtnJ0I42bsZTn7nuEliBxqUrGQm/lN6qUHmhJLw==}
+  /@vueuse/shared/8.9.4_vue@3.2.36:
+    resolution: {integrity: sha512-wt+T30c4K6dGRMVqPddexEVLa28YwxW5OFIPmzUHICjphfAuBFTTdDoyqREZNDOFJZ44ARH1WWQNCUK8koJ+Ag==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -1954,7 +1954,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.2.36
-      vue-demi: 0.13.1_vue@3.2.36
+      vue-demi: 0.13.5_vue@3.2.36
     dev: false
 
   /abab/2.0.6:
@@ -2475,8 +2475,8 @@ packages:
       whatwg-url: 11.0.0
     dev: true
 
-  /dayjs/1.11.3:
-    resolution: {integrity: sha512-xxwlswWOlGhzgQ4TKzASQkUhqERI3egRNqgV4ScR8wlANA/A9tZ7miXa44vTTKEq5l7vWoL5G57bG3zA+Kow0A==}
+  /dayjs/1.11.4:
+    resolution: {integrity: sha512-Zj/lPM5hOvQ1Bf7uAvewDaUcsJoI6JmNqmHhHl3nyumwe0XHwt8sWdOVAPACJzCebL8gQCi+K49w7iKWnGwX9g==}
     dev: false
 
   /debug/2.6.9:
@@ -2584,8 +2584,8 @@ packages:
     resolution: {integrity: sha512-4eWebzDLd+hYLm4csbyMU2EbBnqhwl8Oe9eF/7CBDPWcRxFmqzx4izxvHH+lofQxzieg8UbB8ZuzNTxeukzfTg==}
     dev: true
 
-  /element-plus/2.2.9_vue@3.2.36:
-    resolution: {integrity: sha512-jYbL0JkCdv95rkT6trZJjCAizLPySa0qcd2cgq+57SKQnCZAcNDDq4GbTuFRnNavdoeCJnuM3HIficTIUpsMOQ==}
+  /element-plus/2.2.10_vue@3.2.36:
+    resolution: {integrity: sha512-hJ+LlbRN3POu4Idl1LXB+SHSWdi+wwmdsoDXdQT2ynGuwzZsMYiusOooYXyEsPlrizeLibdnNGNDx4TIjXQvUg==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
@@ -2595,15 +2595,15 @@ packages:
       '@popperjs/core': /@sxzz/popperjs-es/2.11.7
       '@types/lodash': 4.14.182
       '@types/lodash-es': 4.17.6
-      '@vueuse/core': 8.7.5_vue@3.2.36
+      '@vueuse/core': 8.9.4_vue@3.2.36
       async-validator: 4.2.5
-      dayjs: 1.11.3
+      dayjs: 1.11.4
       escape-html: 1.0.3
       lodash: 4.17.21
       lodash-es: 4.17.21
       lodash-unified: 1.0.2_3ib2ivapxullxkx3xftsimdk7u
       memoize-one: 6.0.0
-      normalize-wheel-es: 1.1.2
+      normalize-wheel-es: 1.2.0
       vue: 3.2.36
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -4480,8 +4480,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /normalize-wheel-es/1.1.2:
-    resolution: {integrity: sha512-scX83plWJXYH1J4+BhAuIHadROzxX0UBF3+HuZNY2Ks8BciE7tSTQ+5JhTsvzjaO0/EJdm4JBGrfObKxFf3Png==}
+  /normalize-wheel-es/1.2.0:
+    resolution: {integrity: sha512-Wj7+EJQ8mSuXr2iWfnujrimU35R2W4FAErEyTmJoJ7ucwTn2hOUSsRehMb5RSYkxXGTM7Y9QpvPmp++w5ftoJw==}
     dev: false
 
   /npm-run-path/4.0.1:
@@ -5352,8 +5352,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vue-demi/0.13.1_vue@3.2.36:
-    resolution: {integrity: sha512-xmkJ56koG3ptpLnpgmIzk9/4nFf4CqduSJbUM0OdPoU87NwRuZ6x49OLhjSa/fC15fV+5CbEnrxU4oyE022svg==}
+  /vue-demi/0.13.5_vue@3.2.36:
+    resolution: {integrity: sha512-tO3K2bML3AwiHmVHeKCq6HLef2st4zBXIV5aEkoJl6HZ+gJWxWv2O8wLH8qrA3SX3lDoTDHNghLX1xZg83MXvw==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
