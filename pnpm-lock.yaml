@@ -15,7 +15,7 @@ specifiers:
   '@vitejs/plugin-vue': ^3.0.1
   '@vue/compiler-sfc': ^3.2.36
   '@vue/test-utils': ^2.0.0
-  '@vue/vue3-jest': 28.0.1
+  '@vue/vue3-jest': 28.1.0
   axios: 0.27.2
   babel-jest: ^28.1.0
   babel-plugin-transform-vite-meta-env: ^1.0.3
@@ -68,7 +68,7 @@ devDependencies:
   '@vitejs/plugin-vue': 3.0.1_vite@3.0.2+vue@3.2.36
   '@vue/compiler-sfc': 3.2.36
   '@vue/test-utils': 2.0.0_vue@3.2.36
-  '@vue/vue3-jest': 28.0.1_b266cdlo7gmmswdobf3lm4m5wa
+  '@vue/vue3-jest': 28.1.0_b266cdlo7gmmswdobf3lm4m5wa
   babel-jest: 28.1.0_@babel+core@7.18.2
   babel-plugin-transform-vite-meta-env: 1.0.3
   cross-env: 7.0.3
@@ -1886,19 +1886,16 @@ packages:
       vue: 3.2.36
     dev: true
 
-  /@vue/vue3-jest/28.0.1_b266cdlo7gmmswdobf3lm4m5wa:
-    resolution: {integrity: sha512-fdzbp4HvU8dbo3Pup5sgll4R6hmBf5dHOjpLOFPiwwGnuA57g+Fe2u56nmBVYNd+XA4RInQobdBCl5GbnmhGhw==}
+  /@vue/vue3-jest/28.1.0_b266cdlo7gmmswdobf3lm4m5wa:
+    resolution: {integrity: sha512-A4Ek39u0KtVlUBwzio6DZld8egggTr8JPrSUcHllX4X96LsQUJReyIgPf+sMVCfpNeZUBDqbZ4QHhudBHa9Xzw==}
     engines: {node: '>10'}
     peerDependencies:
       '@babel/core': 7.x
       babel-jest: 28.x
       jest: 28.x
-      ts-jest: 28.x
       typescript: '>= 4.3'
       vue: ^3.0.0-0
     peerDependenciesMeta:
-      ts-jest:
-        optional: true
       typescript:
         optional: true
     dependencies:
