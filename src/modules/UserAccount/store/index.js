@@ -50,7 +50,7 @@ const UserAccountModule = {
       commit(MUTATION.SET_LANGUAGE, data.locale)
     },
     async login ({ state, commit }, data) {
-      await sleep(1000)
+      await sleep(300)
       const res = await login(data)
       return this.filterResponse(res, null, () => {})
     },
@@ -60,7 +60,7 @@ const UserAccountModule = {
     },
     async getUserInfo ({ commit }) {
       const res = await getUserInfoData()
-      await sleep(1000)
+      await sleep(200)
       return this.filterResponse(res, ({ data }) => {
         commit(MUTATION.UPDATE_USER_INFO, data)
       })

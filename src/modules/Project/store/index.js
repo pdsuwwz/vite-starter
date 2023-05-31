@@ -33,12 +33,12 @@ const ProjectModule = {
   },
   actions: {
     async getSearchProjectByQuery ({ commit }, query) {
-      await sleep(2000)
+      await sleep(400)
       const res = await getProjectList(query)
       return this.filterResponse(res, null, () => {})
     },
     async getProjectList ({ commit }, params) {
-      await sleep(2000)
+      await sleep(400)
       // const res = await getProjectList(params)
       const res = {
         msg: 'ok',
