@@ -1,11 +1,11 @@
 <template>
   <el-dropdown
     class="translations-box"
+    popper-class="translations-box"
     :class="{
       'is-dark': dark
     }"
-    trigger="click"
-    popper-class="translations-box"
+    trigger="hover"
     @command="handleChange"
   >
     <span class="icon-outer">
@@ -22,6 +22,7 @@
           v-for="(localeItem, index) in localesList"
           :key="index"
           :command="localeItem"
+          :disabled="currentLocale === localeItem.localeCode"
         >
           <span class="custom-dropdown-item">
             {{ localeItem.localeName }}
@@ -32,16 +33,18 @@
   </el-dropdown>
 </template>
 <script>
-import { defineComponent, ref } from 'vue'
+import { computed, defineComponent, nextTick, ref } from 'vue'
 import { localesMapping } from '@/locales'
-import { useStore } from 'vuex'
 import { useRoute, useRouter } from 'vue-router'
 
+import { ArrowDown } from '@element-plus/icons-vue'
 import LogoIcon from '@/locales/LogoIcon.vue'
+import useBaseStore from '@/hooks/useBaseStore'
 
 export default defineComponent({
   name: 'TranslationsBox',
   components: {
+    ArrowDown,
     LogoIcon
   },
   props: {
@@ -53,8 +56,10 @@ export default defineComponent({
   setup () {
     const route = useRoute()
     const router = useRouter()
-    const store = useStore()
+    const store = useBaseStore()
     const localesList = ref(localesMapping)
+    const currentLocale = computed(() => store.state.UserAccount.locale)
+
     const handleChange = (targetLocaleItem) => {
       setTimeout(() => {
         const { localeCode } = targetLocaleItem
@@ -71,6 +76,7 @@ export default defineComponent({
     }
     return {
       localesList,
+      currentLocale,
       handleChange
     }
   }
@@ -81,18 +87,24 @@ export default defineComponent({
   display: flex;
   align-items: center;
   color: #fff;
+  outline: none;
   cursor: initial;
   user-select: none;
+
   &.is-dark {
     color: #495164;
   }
+
   .icon-outer {
     display: flex;
     align-items: center;
+    outline: none;
+
     &:hover > * {
-      color: $color-success;
+      color: $color-primary;
     }
   }
+
   .custom-dropdown-item {
     white-space: nowrap;
   }
