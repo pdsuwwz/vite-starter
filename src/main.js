@@ -1,9 +1,7 @@
 import { createApp } from 'vue'
 
-import router from '@/router'
-import '@/router/permission'
-
-import store from '@/store'
+import { setupRouter } from '@/router'
+import { setupStore } from '@/store'
 
 import App from './App.vue'
 
@@ -17,16 +15,22 @@ import Widgets from './widgets'
 
 const app = createApp(App)
 
-app
-  .use(router)
-  .use(store)
+function setupPlugins () {
+  app
+    .use(ElementPlus)
+    .use(GlobalComponents)
+    .use(Widgets)
+    .use(Fonts)
+    .mixin(Mixin)
+}
 
-app
-  .use(ElementPlus)
-  .use(GlobalComponents)
-  .use(Widgets)
-  .use(Fonts)
-  .mixin(Mixin)
-  .mount('#app')
+async function setupApp () {
+  setupRouter(app)
+  setupStore(app)
+  app.mount('#app')
+}
+
+setupPlugins()
+setupApp()
 
 export default app

@@ -22,4 +22,8 @@ const store = createStore({
   plugins
 })
 
+export function setupStore (app) {
+  app.use(store)
+}
+
 export default store
