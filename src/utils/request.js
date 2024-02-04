@@ -2,11 +2,10 @@ import axios from 'axios'
 import Cookie from 'js-cookie'
 
 import { camelizeKeys, decamelizeKeys } from './camelCase'
-import Router from '../router/index'
 
 // redirect error
 function errorRedirect (url) {
-  Router.push(`/${url}`)
+  // ...
 }
 // code Message
 export const codeMessage = {

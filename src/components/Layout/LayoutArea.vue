@@ -24,6 +24,7 @@
         </section>
       </div>
     </div>
+    <CustomFooter dark show-border />
   </div>
 </template>
 
