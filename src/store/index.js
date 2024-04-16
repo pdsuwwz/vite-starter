@@ -15,8 +15,8 @@ import ResultModule from '@/modules/Result/store'
 
 const store = createStore({
   modules: {
-    UserAccount: UserAccount,
-    Project: Project,
+    UserAccount,
+    Project,
     Result: ResultModule
   },
   plugins

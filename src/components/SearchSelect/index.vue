@@ -89,7 +89,7 @@ export default defineComponent({
 
     watch(
       () => searchValue,
-      debounce(function (val) {
+      debounce((val) => {
         proxy.$emit('update:modelValue', val)
         proxy.$emit('change', val)
       }, 300)
