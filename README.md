@@ -29,6 +29,7 @@
 
 * Vue 3.x
 * Node >= 16.15.x
+* VS Code 插件 `dbaeumer.vscode-eslint` >= v3.0.5 (pre-release)
 
 ## Install
 
