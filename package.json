@@ -18,7 +18,7 @@
   "engines": {
     "node": ">=16.15.x"
   },
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@8.15.9",
   "keywords": [
     "vue",
     "vue3",
