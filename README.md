@@ -25,37 +25,37 @@
 - ⚡️ JS + Vuex4 版 (当前仓库)[Vite5 + Vue3 + Vuex4 + Element-Plus2 + useLocale + i18n](https://github.com/pdsuwwz/vite-starter)
 
 
-## Environment Support
+## 前置条件
 
 * Vue 3.x
-* Node >= 16.15.x
-* VS Code 插件 `dbaeumer.vscode-eslint` >= v3.0.5 (pre-release)
+* Node >= 18.12.x
+* Pnpm 9.x
+* **VS Code 插件 `dbaeumer.vscode-eslint` >= v3.0.5 (pre-release)**
 
-## Install
 
-Install node dependencies in all packages
+## 安装和运行
+
+* 安装依赖
 
 ```bash
-pnpm install
+pnpm i
 ```
 
-## Run
-
-Local Development
+* 本地开发
 
 ```bash
 pnpm dev
 ```
 
-## Test
+## 单元测试
 
-Unit Testing
+* 执行单测
 
 ```bash
 pnpm test
 ```
 
-Test code coverage
+* 执行覆盖率测试
 
 ```bash
 pnpm test:coverage
