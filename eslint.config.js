@@ -49,7 +49,9 @@ export default defineFlatConfig([
       'no-class-assign': 'error',
       'no-compare-neg-zero': 'error',
       'no-cond-assign': ['error', 'always'],
-      'no-console': ['error', { allow: ['log', 'warn', 'error'] }],
+      'no-console': ['error', {
+        allow: ['log', 'dir', 'warn', 'error']
+      }],
       'no-const-assign': 'error',
       'no-control-regex': 'error',
       'no-debugger': 'error',
@@ -133,7 +135,11 @@ export default defineFlatConfig([
         allowTernary: true
       }],
       'no-unused-vars': ['warn'],
-      'no-use-before-define': ['error', { classes: false, functions: false, variables: true }],
+      'no-use-before-define': ['error', {
+        classes: false,
+        functions: false,
+        variables: false
+      }],
       'no-useless-backreference': 'error',
       'no-useless-call': 'error',
       'no-useless-catch': 'error',
