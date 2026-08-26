@@ -76,7 +76,7 @@
     "eslint-define-config": "^2.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "7.0.0",
+    "eslint-plugin-promise": "7.3.0",
     "eslint-plugin-vue": "9.27.0",
     "globals": "^15.8.0",
     "identity-obj-proxy": "^3.0.0",
